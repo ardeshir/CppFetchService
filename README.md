@@ -24,12 +24,6 @@ Home:/usr/include$ pkg-config --modversion libpqxx
 7.8.1
 ```
 #### Step 2: Setup PostgreSQL Database and Tables
- 
-
-- Switch to the PostgreSQL user:
-```bash
-sudo -i -u postgres  
-``` 
 
 1. Switch to the PostgreSQL user:
 ```bash
