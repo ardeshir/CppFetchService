@@ -12,7 +12,7 @@ sudo apt install postgresql postgresql-contrib
 ``` 
 2. Install PostgreSQL development libraries:
 ```bash
-sudo apt install libpq-dev
+sudo apt install libpqxx-dev 
 ```
 3. Install other necessary tools:
 ```bash
