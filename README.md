@@ -25,9 +25,22 @@ sudo apt install cmake g++ libcurl4-openssl-dev
 ```bash
 sudo -i -u postgres  
 ``` 
+
+1. Switch to the PostgreSQL user:
+```bash
+sudo -i -u postgres  
+``` 
+- Connect to your PostgreSQL instance
+```sh
+    psql -U your_username -d your_dbname
+```
 2. Create a new database and user:
 ```bash
-sh createdb mydatabase psql -c "CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypassword';" psql -c "GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;"
+CREATE database mydatabase ; 
+
+CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypassword';" 
+ 
+GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
 ```
 3. Create the urls and content tables:
 
