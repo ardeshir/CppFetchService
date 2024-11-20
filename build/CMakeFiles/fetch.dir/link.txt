@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/fetch.dir/fetch.cpp.o -o fetch  /usr/lib/aarch64-linux-gnu/libpq.so -lpqxx -lcurl 

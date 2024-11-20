@@ -1,0 +1,26 @@
+#include <iostream>
+#include <pqxx/pqxx>
+#include <curl/curl.h>
+#include <chrono>
+#include <thread>
+#include <ctime>
+
+size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::string* s) {
+    size_t newLength = size * nmemb;
+    size_t oldLength = s-> size();
+
+    try {
+        s->resize(oldLength + newLength);
+    } catch (std::bad_alloc &e){
+        return 0;
+    }
+    std::copy( (char*)contents, (char*)contents + newLength, s->begin() + oldLength );
+    return size * nmemb;
+}
+
+int main() {
+
+
+    curl_easy_cleanup(curl);
+    return 0;
+}

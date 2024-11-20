@@ -1,0 +1,3 @@
+/home/ardeshir/c_code/cppCode/fetchservice/build/CMakeFiles/fetch.dir
+/home/ardeshir/c_code/cppCode/fetchservice/build/CMakeFiles/edit_cache.dir
+/home/ardeshir/c_code/cppCode/fetchservice/build/CMakeFiles/rebuild_cache.dir
