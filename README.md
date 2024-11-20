@@ -2,8 +2,8 @@
 
 ```sql
 searchdb=#  GRANT ALL PRIVILEGES ON TABLE urls TO admin;
-GRANT
-- searchdb=#  GRANT ALL PRIVILEGES ON TABLE content TO admin;
+
+searchdb=#  GRANT ALL PRIVILEGES ON TABLE content TO admin;
 ```
 
 ##### Resources
