@@ -16,7 +16,12 @@ sudo apt install libpqxx-dev
 ```
 3. Install other necessary tools:
 ```bash
-sudo apt install cmake g++ libcurl4-openssl-dev
+sudo apt install cmake g++ libcurl4-openssl-dev 
+```
+4.  To check that libpqxx is isntalled correctly 
+```bash
+Home:/usr/include$ pkg-config --modversion libpqxx  
+7.8.1
 ```
 #### Step 2: Setup PostgreSQL Database and Tables
  
